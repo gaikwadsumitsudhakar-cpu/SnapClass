@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from flask import Flask, render_template
 
 app = Flask(__name__)
@@ -9,7 +9,6 @@ def home():
 
 if __name__ == '__main__':
     app.run(debug=True, port=5002)
-=======
 
 import streamlit as st
 
@@ -46,4 +45,4 @@ def main():
         if st.session_state.get('is_logged_in') and st.session_state.get('user_role') == 'student':
             auto_enroll_dialog(join_code)
 main()
->>>>>>> b41095ef4a93dea97b925b10e4242d2b9bf3a6f0
+
